@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CART PAGE</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link  rel="styleSheet" href="./style/cart.css" />
+</head>
+<body>
+    <header class="header">
+        <div class="headOfHeader">
+            <div class="logo">
+                <img src="./assets/images/logo.png" />
+            </div>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="./home.html" class="active" >Home</a>
+                    </li>
+                    <li>
+                        <a href="#about">About</a>
+                    </li>
+                    <li>
+                        <a href="./shop.html"  >Shop</a>
+                    </li>
+                    <li>
+                        <a href="./contact.html"  >Contact</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="menuIcon">
+                <div></div>
+                <div></div>
+            </div>
+
+            <div class="icons">
+                <div class="firstIcon"></div>
+
+                <a href="./wishList.html" >
+                    <div class="wishListIconList"><i class="fa-solid fa-heart"></i></div>
+                </a>
+                <div class="notificationFavIcon">0</div>
+
+                <div class="secondIcon"></div>
+
+                <a href="./cart.html" >
+                    <div class="cartIcon"><i class="fa-solid fa-cart-shopping"></i></div>
+                </a>
+                <div class="notificationCartIcon">0</div>
+            </div>
+        </div>
+        <div class="contentHeader">
+           <p>HOME - <span> CART</span></p>
+        </div>
+
+    </header>
+    <div class="menuBar">
+        <div class="headerMenuBar">
+            <div class="logoMenuBar">
+                <img src="./assets/images/logo.png" />
+            </div>
+            <div class="closeIcon">
+                <i class="fa-solid fa-xmark"></i>
+            </div>
+        </div>
+        <ul>
+            <li><a href="./home.html"  class="active" >Home</a></li>
+            <li><a href="#about" >About</a></li>
+            <li><a href="./shop.html"  >Shop</a></li>
+            <li><a href="./contact.html" >Contact</a></li>
+            <li><a href="./wishList.html" >Wish List</a></li>
+            <li><a href="./cart.html" >Cart</a></li>
+        </ul>
+    </div>
+    <main>
+        <section>
+            <div class="emptyCart">
+                <p>Your cart is currently empty.</p>
+                <a href="./shop.html" >
+                    <button>Return To Shop</button>
+                </a>
+            </div>
+            <div class="cartContent">
+                <p class="cartCount">
+                    <span >3</span> Items In Cart
+                </p>
+                <div class="mainCartContent">
+                    <div class="contentPart1">
+
+                    </div>
+                    <div class="contentPart2">
+                        <div class="checkOut">
+                            <div class="title">
+                                <p>Total</p>
+                                <p>450 EG</p>
+                            </div>
+                            <div class="shipping">
+                                <p>Shipping</p>
+                                <p>Free</p>
+                            </div>
+                        </div>
+                        <button>Checkout</button>
+                    </div>
+
+                </div>
+                
+            </div>
+
+        </section>
+    </main>
+    <footer>
+        <P> &copy;2024 <span> Joe Programming Channel.</span> All rights reserved</P>
+    </footer>
+
+    <script src="./script/cart.js" type="module"></script>
+</body>
+</html>

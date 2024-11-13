@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CONTACT</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="styleSheet" href="./style/contact.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="headOfHeader">
+        <div class="logo">
+          <img src="./assets/images/logo.png" />
+        </div>
+        <nav>
+          <ul>
+            <li>
+              <a href="./home.html">Home</a>
+            </li>
+            <li>
+              <a href="#about">About</a>
+            </li>
+            <li>
+              <a href="./shop.html">Shop</a>
+            </li>
+            <li>
+              <a href="./contact.html" class="active">Contact</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="menuIcon">
+          <div></div>
+          <div></div>
+        </div>
+
+        <div class="icons">
+          <div class="firstIcon"></div>
+
+          <a href="./wishList.html">
+            <div class="wishListIconList">
+              <i class="fa-solid fa-heart"></i>
+            </div>
+          </a>
+          <div class="notificationFavIcon">0</div>
+
+          <div class="secondIcon"></div>
+
+          <a href="./cart.html">
+            <div class="cartIcon">
+              <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+          </a>
+          <div class="notificationCartIcon">0</div>
+        </div>
+      </div>
+      <div class="contentHeader">
+        <p>HOME - <span> Contact</span></p>
+      </div>
+    </header>
+    <div class="menuBar">
+      <div class="headerMenuBar">
+        <div class="logoMenuBar">
+          <img src="./assets/images/logo.png" />
+        </div>
+        <div class="closeIcon">
+          <i class="fa-solid fa-xmark"></i>
+        </div>
+      </div>
+      <ul>
+        <li><a href="./home.html">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="./shop.html">Shop</a></li>
+        <li><a href="#contact" class="active">Contact</a></li>
+        <li><a href="./wishList.html" >Wish List</a></li>
+        <li><a href="./cart.html" >Cart</a></li>
+      </ul>
+    </div>
+    <main>
+      <section class="contactUs">
+        <div class="headerContactUs">
+          <p>Shop by category</p>
+          <h2>Send Us Message</h2>
+        </div>
+
+          <form class="contactUsContent" action="" method="">
+            <div class="headerContent">
+              <input type="text" placeholder="Joe Programming" class="inputOne" required/>
+              <i class="fa-solid fa-user person"></i>
+
+              <input type="tel" placeholder="+20 1515 85 8" class="inputTwo" required/>
+              <i class="fa-solid fa-phone tel"></i>
+
+              <input type="text" placeholder="Subject" class="inputThree" required/>
+              <i class="fa-solid fa-tag link"></i>
+            </div>
+            <div class="mainContent">
+              <textarea placeholder="Message" required></textarea>
+              <i class="fa-solid fa-comment"></i>
+            </div>
+            <div class="footerContent">
+              <button type="submit">Send Message</button>
+            </div>
+          </form>
+      </section>
+    </main>
+    <footer>
+      <p>
+        &copy;2024 <span> Joe Programming Channel.</span> All rights reserved
+      </p>
+    </footer>
+
+    <script src="./script/contact.js" type="module"></script>
+  </body>
+</html>

@@ -1,0 +1,41 @@
+{
+    "categories":[
+        {"id":1 ,"title":"Vegetarian" ,"slug":"vegetarian" , "image":"./assets/images/catImg1.jpg"},
+        {"id":2 ,"title":"Meal" ,"slug":"meal" , "image":"./assets/images/catImg2.jpg"},
+        {"id":3 ,"title":"Chicken" ,"slug":"chicken" , "image":"./assets/images/catImg3.jpg"},
+        {"id":4 ,"title":"Dubble" ,"slug":"dubble" ,"image":"./assets/images/catImg4.jfif"}
+    ],
+
+    "products":[
+        {"id":"1", "title":"Pork Chop with Apple Chutney", "image":"./assets/images/1.jpg", "price":"150 EG", "rate":"4.5", "components":"4 Pieces", "sauce":"Spicy Sauce","categorySlug":"Vegetarian" , "description":"Lorem ipsum dolor sit amet consectetur. Enim ullamcorper pellentesque consectetur egestas diam volutpat laoreet amet. Proin elit eu adipiscing suspendisse."},
+
+        {"id":"2", "title":"Pork Chop with Apple Chutney", "image":"./assets/images/2.jpg", "price":"150 EG", "rate":"4.5", "components":"4 Pieces", "sauce":"Spicy Sauce","categorySlug":"Vegetarian" ,"description":"Lorem ipsum dolor sit amet consectetur. Enim ullamcorper pellentesque consectetur egestas diam volutpat laoreet amet. Proin elit eu adipiscing suspendisse."},
+
+        {"id":"3", "title":"Pork Chop with Apple Chutney", "image":"./assets/images/3.jpg", "price":"150 EG", "rate":"4.5", "components":"4 Pieces", "sauce":"Spicy Sauce","categorySlug":"Vegetarian","description":"Lorem ipsum dolor sit amet consectetur. Enim ullamcorper pellentesque consectetur egestas diam volutpat laoreet amet. Proin elit eu adipiscing suspendisse."},
+
+        {"id":"4", "title":"Pork Chop with Apple Chutney", "image":"./assets/images/4.jpg", "price":"150 EG", "rate":"4.5", "components":"4 Pieces", "sauce":"Spicy Sauce","categorySlug":"Vegetarian","description":"Lorem ipsum dolor sit amet consectetur. Enim ullamcorper pellentesque consectetur egestas diam volutpat laoreet amet. Proin elit eu adipiscing suspendisse."},
+
+        {"id":"5", "title":"Pork Chop with Apple Chutney", "image":"./assets/images/5.jpg", "price":"150 EG", "rate":"4.5", "components":"4 Pieces", "sauce":"Spicy Sauce","categorySlug":"Vegetarian","description":"Lorem ipsum dolor sit amet consectetur. Enim ullamcorper pellentesque consectetur egestas diam volutpat laoreet amet. Proin elit eu adipiscing suspendisse."},
+
+        {"id":"6", "title":"Pork Chop with Apple Chutney", "image":"./assets/images/6.jpg", "price":"150 EG", "rate":"4.5", "components":"4 Pieces", "sauce":"Spicy Sauce","categorySlug":"Vegetarian","description":"Lorem ipsum dolor sit amet consectetur. Enim ullamcorper pellentesque consectetur egestas diam volutpat laoreet amet. Proin elit eu adipiscing suspendisse."},
+
+        {"id":"7", "title":"Pork Chop with Apple Chutney", "image":"./assets/images/4.jpg", "price":"150 EG", "rate":"4.5", "components":"4 Pieces", "sauce":"Spicy Sauce","categorySlug":"Meal","description":"Lorem ipsum dolor sit amet consectetur. Enim ullamcorper pellentesque consectetur egestas diam volutpat laoreet amet. Proin elit eu adipiscing suspendisse."},
+
+        {"id":"8", "title":"Pork Chop with Apple Chutney", "image":"./assets/images/5.jpg", "price":"150 EG", "rate":"4.5", "components":"4 Pieces", "sauce":"Spicy Sauce","categorySlug":"Meal","description":"Lorem ipsum dolor sit amet consectetur. Enim ullamcorper pellentesque consectetur egestas diam volutpat laoreet amet. Proin elit eu adipiscing suspendisse."},
+
+        {"id":"9", "title":"Pork Chop with Apple Chutney", "image":"./assets/images/6.jpg", "price":"150 EG", "rate":"4.5", "components":"4 Pieces", "sauce":"Spicy Sauce","categorySlug":"Meal","description":"Lorem ipsum dolor sit amet consectetur. Enim ullamcorper pellentesque consectetur egestas diam volutpat laoreet amet. Proin elit eu adipiscing suspendisse."},
+
+        {"id":"10", "title":"Pork Chop with Apple Chutney", "image":"./assets/images/1.jpg", "price":"150 EG", "rate":"4.5", "components":"4 Pieces", "sauce":"Spicy Sauce","categorySlug":"Chicken","description":"Lorem ipsum dolor sit amet consectetur. Enim ullamcorper pellentesque consectetur egestas diam volutpat laoreet amet. Proin elit eu adipiscing suspendisse."},
+
+        {"id":"11", "title":"Pork Chop with Apple Chutney", "image":"./assets/images/2.jpg", "price":"150 EG", "rate":"4.5", "components":"4 Pieces", "sauce":"Spicy Sauce","categorySlug":"Chicken","description":"Lorem ipsum dolor sit amet consectetur. Enim ullamcorper pellentesque consectetur egestas diam volutpat laoreet amet. Proin elit eu adipiscing suspendisse."},
+
+        {"id":"12", "title":"Pork Chop with Apple Chutney", "image":"./assets/images/3.jpg", "price":"150 EG", "rate":"4.5", "components":"4 Pieces", "sauce":"Spicy Sauce","categorySlug":"Chicken","description":"Lorem ipsum dolor sit amet consectetur. Enim ullamcorper pellentesque consectetur egestas diam volutpat laoreet amet. Proin elit eu adipiscing suspendisse."},
+
+        {"id":"13", "title":"Pork Chop with Apple Chutney", "image":"./assets/images/4.jpg", "price":"150 EG", "rate":"4.5", "components":"4 Pieces", "sauce":"Spicy Sauce","categorySlug":"Dubble","description":"Lorem ipsum dolor sit amet consectetur. Enim ullamcorper pellentesque consectetur egestas diam volutpat laoreet amet. Proin elit eu adipiscing suspendisse."},
+
+        {"id":"14", "title":"Pork Chop with Apple Chutney", "image":"./assets/images/3.jpg", "price":"150 EG", "rate":"4.5", "components":"4 Pieces", "sauce":"Spicy Sauce","categorySlug":"Dubble","description":"Lorem ipsum dolor sit amet consectetur. Enim ullamcorper pellentesque consectetur egestas diam volutpat laoreet amet. Proin elit eu adipiscing suspendisse."},
+
+        {"id":"15", "title":"Pork Chop with Apple Chutney", "image":"./assets/images/6.jpg", "price":"150 EG", "rate":"4.5", "components":"4 Pieces", "sauce":"Spicy Sauce","categorySlug":"Dubble","description":"Lorem ipsum dolor sit amet consectetur. Enim ullamcorper pellentesque consectetur egestas diam volutpat laoreet amet. Proin elit eu adipiscing suspendisse."}
+       
+    ]
+}

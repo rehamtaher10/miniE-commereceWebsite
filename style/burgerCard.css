@@ -1,0 +1,498 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", serif;
+    font-style: normal;
+}
+@font-face {
+    font-family:fiber_vintage;
+    src: url(../assets/fonts/fiber_vintage/fibre-vintage.otf);
+}
+html , body{
+    overflow-x: hidden;
+}
+body{
+    position: relative;
+}
+body{
+    background-image: url(../assets/images/backgroundImg.png);
+    background-size: cover;
+    background-position:center;
+    background-attachment: fixed;
+    width: 100%;
+    min-height: 100vh;
+}
+a{
+    text-decoration: none;
+}
+a i{
+    color: white;
+}
+.header{
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),url(../assets/images/burCardHeader.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    width: 97%;
+    min-height: 30.2rem;
+    margin: 1.5rem;
+    padding-inline: 2.5rem;
+    padding-block: 3rem;
+    border-radius: 1rem;
+    color: white;
+}
+.headOfHeader{
+    display: flex;
+    justify-content:space-between;
+    align-items: flex-start;
+    
+}
+nav ul{
+    display: flex;
+    gap: 3rem;
+    line-height: 4.5rem;
+    list-style: none;
+    font-size: 1.2rem;
+    text-transform:uppercase;
+  
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    opacity: .5;
+    cursor: pointer;
+}
+nav a.active{
+    text-decoration: underline;
+    text-underline-offset: .8rem;
+    opacity: 1;
+}
+.icons{
+    transform: translateY(1rem);
+    font-size: 1.2rem;
+    display: flex;
+    gap: .5rem;
+}
+.wishListIconList , .cartIcon{
+    border: 2px solid white;
+    border-radius: 50%;
+    width: 2.7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2.7rem;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+.notificationFavIcon{
+    height: 1.5rem;
+    position: absolute;
+    background-color: red;
+    width: 1.5rem;
+    border-radius: 50%;
+    right: 3.7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.notificationCartIcon{
+    height: 1.5rem;
+    position: absolute;
+    right: 0;
+    background-color: red;
+    width: 1.5rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.menuIcon{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    transform: translateY(25px);
+    cursor: pointer;
+    opacity: 0;
+    visibility: hidden;
+}
+.menuIcon div{
+    width: 3rem;
+    height: .2rem;
+    background-color: white;
+}
+.menuBar{
+    background-color: rgb(88, 88, 88);
+    width: 100%;
+    height: 100%;
+    border-radius: 1rem;
+    color: white;
+    position: absolute;
+    top: 0;
+    right: -100rem;
+    transition: .8s ease-in-out;
+    z-index: 10;
+    
+}
+.headerMenuBar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: .7rem;
+}
+.menuBar ul{
+    list-style-type: none;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    font-size: 2rem;
+}
+.menuBar ul a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    opacity: .5;
+    font-weight: 400;
+    opacity: .5;
+}
+.menuBar ul a.active{
+    text-decoration: underline;
+    text-underline-offset: .7rem;
+    opacity: 1;
+}
+.logoMenuBar img{
+    width: 6rem;
+}
+.headerMenuBar .closeIcon{
+    font-size: 3rem;
+    transform: translateY(18px);
+    cursor: pointer;
+}
+.contentHeader{
+   text-align: center;
+   margin-top: 6rem;
+    font-weight: 700;
+    font-size: 2rem;
+    color: white;
+    text-transform: uppercase;
+}
+.contentHeader p span{
+    color:#FFFFFF80;
+}
+.headerburgerCard{
+    text-transform: uppercase;
+    text-align: center;
+}
+.burgerCard{
+    color: white;
+    margin-top: 6rem;
+    margin-bottom: 10rem;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.headerburgerCard p{
+    font-weight: 400;
+    font-size: 1.3rem;
+}
+.headerburgerCard h2{
+    font-family:fiber_vintage;
+    font-weight: 700;   
+    font-size: 4rem;  
+}
+.card{
+    display: flex;
+    gap:3rem;
+    background-color: #1D1D1D;
+    margin-inline: 1.5rem;
+    margin-block: 6rem;
+    border-radius: 1rem;
+    padding: 1.5rem;
+    overflow: hidden;
+}
+.image{
+    width: 40%;
+    height: 100%;
+    position: relative;
+}
+.wishListIcon{
+    width: 3.8rem;
+    height: 3.8rem;
+    background-color: white;
+    border: 3px solid #D6282880;
+    border-radius: 50%;
+    color: #D62828;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+    cursor: pointer;
+}
+.wishListIcon i{
+   font-size: 1.6rem;
+}
+.fav{
+    background-color: #D62828;
+    border: none;
+    color: white;
+ }
+.image img{
+    /* width: 31.1rem; */
+    width: 100%;
+    height: 24.6rem;
+    object-fit: cover;
+    border-radius: 1rem;
+}
+.details{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-weight: 400;
+}
+.details .title{
+    font-size: 2.3rem;
+    text-transform: uppercase;
+    padding-inline: 1.5rem;
+}
+.details .description{
+    text-align: justify;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    word-spacing: .2rem;
+    line-height: 1.9rem;
+    padding-inline: 1.5rem;
+    
+}
+.details .price{
+    color: #D62828;
+    font-weight: 600;
+    font-size: 1.5rem;
+    padding-inline: 1.5rem;
+    padding-block: 1rem;
+}
+.details button{
+    width: 20.5rem;
+    height: 3.1rem;
+    background-color: transparent;
+    border: 3px solid #FFFFFF80;
+    border-radius: 1rem;
+    color: #FFFFFF80;
+    font-weight: 400;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: border-color 0.5s, background-color 0.5s, color 0.5s;
+}
+.details button:hover{
+    background-color: rgba(255, 255, 255 , .8);
+    border-color: transparent;
+    color: #444;
+}
+.details button.added{
+    border: 3px solid white;
+    color: white;
+}
+footer{
+    color: white;
+    text-align: center;
+    font-size: 1.3rem;
+    margin-bottom: 4rem;
+}
+footer p{
+    font-weight: 300;
+    text-transform: capitalize;
+}
+footer span{
+    color: #D62828;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+
+/*                               Responsive                                             */
+
+@media (max-width: 1024px) {
+    .header {
+        width: 95%;
+    }
+    .details .description {
+        font-size: 1rem;
+    }
+
+}
+@media (max-width: 768px){
+    nav ul{
+        margin-left: 3rem;
+        font-size: 1rem;
+    }
+    .header {
+        width: 95%;
+    }
+    .contentHeader{
+        margin-top: 6rem;
+    }
+    .contentHeader p {
+        font-size: 1.8rem;
+        width: 100%;
+    }
+    footer{
+        font-size: 1rem;
+    }
+    .details .description {
+        font-size: .7rem;
+        line-height: 1.5rem;
+    }
+    .details .title {
+        font-size: 2rem;
+    }
+}
+@media (max-width: 600px){
+    nav ul{
+        font-size: .8rem;
+        line-height: 3.5rem;
+        gap: 2rem;
+    }
+    .logo img{
+        width: 3.5rem;
+    }
+    .wishListIconList , .cartIcon{
+        width: 1.7rem;
+        height: 1.7rem;
+    }
+    .icons i{
+        font-size: 1rem;
+    }
+    .header{
+        width: 94%;
+        margin: 1rem;
+        padding-inline: 1rem;
+        min-height: 100vh;
+    }
+    .notificationFavIcon {
+        right: 2rem;
+        bottom: 0.5rem;
+    }
+    .notificationCartIcon {
+        right: -0.7rem;
+        top: -.3rem;
+    }
+    .contentHeader {
+        margin-top: 8rem;
+    }
+    .contentHeader p {
+        font-size: 1.8rem;
+        width: 90%;
+    }
+    .headerburgerCard h2 {
+        font-size: 3rem;
+    }
+    .card {
+        margin-inline: 1rem;
+        padding: 1rem;
+        gap: 1rem;
+    }
+    .details {
+        width: 56%;
+        gap: 1.3rem;
+    }
+    .image {
+        width: 44%;
+    }
+    .details .title {
+        font-size: 1.5rem;
+    }
+    .details .description {
+        font-size: .7rem;
+        line-height: 1.3rem;
+        word-spacing: 0;
+    }
+    .details .price {
+        font-size: 1.3rem;
+    }
+    .details button {
+        width: 18.5rem;
+    }
+    footer {
+        font-size: .8rem;
+    }
+}
+
+@media (max-width: 460px) {
+    .header {
+        width: 90%;
+    }
+    .menuIcon{
+        opacity: 1;
+        visibility: visible;
+      
+    }
+    nav ul{
+        display: none;
+        max-height: 0;
+    }
+    .icons{
+        display: none;
+        max-height: 0;
+    }
+    .contentHeader p {
+        width: 100%;
+    }
+    .contentHeader{
+        font-size: 1.5rem;
+    }
+    .card {
+        flex-direction: column;
+    }
+    .image {
+        width: 100%;
+    }
+    .details {
+        width: 100%;
+    }
+    .details button {
+        width: 24.5rem;
+    }
+    footer {
+        font-size: .7rem;
+    }
+}
+@media (max-width: 431px) {}
+
+@media (max-width : 376px){
+    .contentHeader p {
+        width: 100%;
+    }
+    footer {
+        font-size: .6rem;
+        margin-bottom: 2rem;
+    }
+    .headerburgerCard h2 {
+        font-size: 2rem;
+    }
+    .headerburgerCard p {
+        font-size: 1rem;
+    }
+    .details button {
+        width: 20.5rem;
+    }
+    .card{
+        margin-block: 3rem;
+    }
+}

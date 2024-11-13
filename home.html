@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home Page</title>
+    <!-- <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    /> -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <link rel="styleSheet" href="./style/home.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="headOfHeader">
+        <div class="logo">
+          <img src="./assets/images/logo.png" />
+        </div>
+        <nav>
+          <ul>
+            <li>
+              <a href="./home.html" class="active">Home</a>
+            </li>
+            <li>
+              <a href="#about">About</a>
+            </li>
+            <li>
+              <a href="./shop.html">Shop</a>
+            </li>
+            <li>
+              <a href="./contact.html">Contact</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="menuIcon">
+          <div></div>
+          <div></div>
+        </div>
+
+        <div class="icons">
+          <div class="firstIcon"></div>
+          <a href="./wishList.html">
+            <div class="wishListIconList">
+              <i class="fa-solid fa-heart"></i>
+            </div>
+          </a>
+          <div class="notificationFavIcon">0</div>
+
+          <div class="secondIcon"></div>
+
+          <a href="./cart.html">
+            <div class="cartIcon">
+              <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+          </a>
+          <div class="notificationCartIcon">0</div>
+        </div>
+      </div>
+      <div class="contentHeader">
+        <h1>Crafting your Exceptional Dining Reservations</h1>
+        <p>
+          Reservation is a step into a world of gastronomic wonder. Reserve your
+          table today and let us paint your culinary dreams into reality.
+        </p>
+        <a href="./shop.html">
+          <button>Explore Products</button>
+        </a>
+      </div>
+    </header>
+    <div class="menuBar">
+      <div class="headerMenuBar">
+        <div class="logoMenuBar">
+          <img src="./assets/images/logo.png" />
+        </div>
+        <div class="closeIcon">
+          <i class="fa-solid fa-xmark"></i>
+        </div>
+      </div>
+      <ul>
+        <li><a href="./home.html" class="active">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="./shop.html">Shop</a></li>
+        <li><a href="./contact.html">Contact</a></li>
+        <li><a href="./wishList.html" >Wish List</a></li>
+        <li><a href="./cart.html" >Cart</a></li>
+      </ul>
+    </div>
+
+    <main>
+      <section class="mostSelling">
+        <p>Most Selling</p>
+        <h2>Most Selling</h2>
+
+        <div class="swiper">
+          <div class="swiper-wrapper ">
+
+          </div>
+        </div>
+
+        <div class="arrows">
+          <div class="arrow prev"><i class="fa-solid fa-arrow-left"></i></div>
+          <div class="arrow cliked next">
+            <i class="fa-solid fa-arrow-right"></i>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="slider">
+        <div class="playSlider" id="playButton">Play</div>
+      </div>
+
+      <div id="videoModal" class="modal">
+        <div class="modal-content">
+          <span class="close" id="closeButton">&times;</span>
+          <iframe
+            src="https://www.youtube.com/embed/V5w1OGknhlc?si=7FsgF7qM5BRvzIxj"
+            title="YouTube video player"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          >
+          </iframe>
+        </div>
+      </div>
+      <p>
+        &copy;2024 <span> Joe Programming Channel.</span> All rights reserved
+      </p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script/home.js" type="module"></script>
+  </body>
+</html>
